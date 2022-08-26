@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/img_8"
+        />
+        <TextView
+            android:layout_width="match_parent"
+            android:text="ĐỔI MẬT KHẨU"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/purple_700"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:layout_height="wrap_content"/>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/purple_700"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            app:passwordToggleEnabled="true"
+            app:passwordToggleTint="@android:color/background_dark"
+            android:hint="Mật khẩu cũ">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edPassOld"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:inputType="textPassword"
+                android:textColor="#000" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/purple_700"
+            android:padding="5dp"
+            app:passwordToggleEnabled="true"
+            app:passwordToggleTint="@android:color/background_dark"
+            android:hint="Mật khẩu mới">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edPassNew"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:inputType="textPassword"
+                android:textColor="#000" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="ĐỒNG Ý"
+            android:textSize="20dp"
+            android:textColor="#020D6A"
+            android:id="@+id/btnOk"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            />
+
+</LinearLayout>

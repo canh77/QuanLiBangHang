@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:orientation="vertical"
+    android:layout_marginHorizontal="1sp"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:src="@drawable/img_9"
+        android:layout_height="100dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bạn có muốn xóa?"
+        android:textSize="24dp"
+        android:textColor="#E60505"
+        android:id="@+id/tvXoa"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="30dp"
+        />
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="XÓA"
+            android:background="@color/teal_200"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:id="@+id/btnDelete1"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HỦY"
+            android:background="@color/teal_200"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/btnCancel1"
+            />
+
+    </LinearLayout>
+</LinearLayout>
