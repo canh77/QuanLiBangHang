@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:background="#92AAAE"
+    android:orientation="vertical"
+    android:layout_height="200dp">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:text="Bạn muốn đăng xuất ?"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_gravity="center">
+        <Button
+            android:layout_marginRight="50dp"
+            android:background="@drawable/border"
+            android:id="@+id/btnYesExit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Có"/>
+        <Button
+            android:background="@drawable/border"
+            android:id="@+id/btnNoExit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Không"/>
+    </LinearLayout>
+</LinearLayout>

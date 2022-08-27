@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "728125251444",
+    "project_id": "qlbanhang-4e35b",
+    "storage_bucket": "qlbanhang-4e35b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:728125251444:android:b07c8e2a5bd1a8a14fd621",
+        "android_client_info": {
+          "package_name": "com.example.quanlibanhang"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "728125251444-r8pn5ul7l5pluvptv1flduc0q0hg6vt7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhkeQq3D0hj1sHy7QrgU0pHxmgNsc52jU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "728125251444-r8pn5ul7l5pluvptv1flduc0q0hg6vt7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
