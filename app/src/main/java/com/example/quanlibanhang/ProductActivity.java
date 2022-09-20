@@ -64,7 +64,6 @@ public class ProductActivity extends AppCompatActivity {
         imgTimkiem = findViewById(R.id.imgTimkiem);
         imgClose = findViewById(R.id.imgClose);
         imgUser = findViewById(R.id.imgUser);
-
         imgLogo = findViewById(R.id.imgLogo);
 
         rvProduct = findViewById(R.id.rvProduct);
@@ -72,7 +71,6 @@ public class ProductActivity extends AppCompatActivity {
 
         listProduct = new ArrayList();
         mDatabase = FirebaseDatabase.getInstance().getReference("products");
-
         dao = new ProductDAO();
         dao.read(mDatabase, listProduct, this, rvProduct);
 
@@ -153,7 +151,6 @@ public class ProductActivity extends AppCompatActivity {
         });
         dialog.show();
     }
-
 
     protected void openDialogAdd(final Context context) {
         dialog = new Dialog(context);

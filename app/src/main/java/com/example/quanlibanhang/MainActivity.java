@@ -149,7 +149,6 @@ public class MainActivity extends AppCompatActivity {
                             btnDangKy.setVisibility(View.GONE);
                         }else {
                             Toast.makeText(MainActivity.this, "Đăng kí thất bại", Toast.LENGTH_SHORT).show();
-
                         }
                     }
                 });

@@ -57,16 +57,15 @@
                 android:textColor="#000" />
         </com.google.android.material.textfield.TextInputLayout>
 
-        <Button
-            android:layout_width="100dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="ĐỒNG Ý"
-            android:textSize="20dp"
-            android:textColor="#020D6A"
-            android:id="@+id/btnOk"
-            android:textStyle="bold"
-            android:layout_marginTop="20dp"
-            />
+    <Button
+        android:id="@+id/btnOk"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="ĐỒNG Ý"
+        android:textColor="#020D6A"
+        android:textSize="20dp"
+        android:textStyle="bold" />
 
 </LinearLayout>

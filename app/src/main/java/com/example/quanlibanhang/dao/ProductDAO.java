@@ -105,8 +105,7 @@ public class ProductDAO {
     }
 
     //tìm sản phẩm
-    public void find(String findName,DatabaseReference mDatabase, List listProduct
-            ,Context context, RecyclerView rvProduct){
+    public void find(String findName,DatabaseReference mDatabase, List listProduct,Context context, RecyclerView rvProduct){
         mDatabase.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {

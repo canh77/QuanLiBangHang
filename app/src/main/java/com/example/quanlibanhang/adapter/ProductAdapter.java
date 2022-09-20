@@ -30,7 +30,7 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.ProductV
     List<Products> list;
     Context context;
     //thao tác lệnh và dữ liệu
-     ProductDAO dao ;
+     ProductDAO dao;
      private DatabaseReference mDatabase;
 
     String strId, strName, strPrice, strMota, strAvatar;
@@ -38,6 +38,7 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.ProductV
     public ProductAdapter(List<Products> list,Context context){
         this.list = list;
         this.context = context;
+
         dao = new ProductDAO();
         mDatabase = FirebaseDatabase.getInstance().getReference("products");
     }
@@ -173,6 +174,8 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.ProductV
             });
             btnCancel.setOnClickListener(view -> {
                 dialog.dismiss();
+                //
+
             });
         }
         dialog.show();
@@ -181,6 +184,7 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.ProductV
     private  void  openDialogDelete(final  Context context){
         Dialog dialog = new Dialog(context);
         dialog.setContentView(R.layout.dialog_delete);
+        Toast.makeText(context, "", Toast.LENGTH_SHORT).show();
         // Khi chạm bên ngoài dialog sẽ ko đóng
         dialog.setCanceledOnTouchOutside(false);
 
