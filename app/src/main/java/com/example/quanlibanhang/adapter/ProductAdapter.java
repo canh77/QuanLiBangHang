@@ -176,6 +176,8 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.ProductV
                 dialog.dismiss();
                 //
 
+                Toast.makeText(context, "", Toast.LENGTH_SHORT).show();
+                //
             });
         }
         dialog.show();
