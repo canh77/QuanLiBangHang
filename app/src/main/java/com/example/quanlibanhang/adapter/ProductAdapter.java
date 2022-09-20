@@ -180,6 +180,8 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.ProductV
     }
     private  void  openDialogDelete(final  Context context){
         Dialog dialog = new Dialog(context);
+
+
         dialog.setContentView(R.layout.dialog_delete);
         // Khi chạm bên ngoài dialog sẽ ko đóng
         dialog.setCanceledOnTouchOutside(false);
